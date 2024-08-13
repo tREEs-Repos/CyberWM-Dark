@@ -1,5 +1,5 @@
 ________________________________________________________________________________________
-This license description applies to: "CyberWM-Dark XFCE Window Manager Theme" by tREEs
+This license description applies to: "CyberWM-Dark XFCE Window Manager Themes" by tREEs
 The full repository is available at this URL: https://github.com/tREEs-Repos/CyberWM-Dark
 _________________________________________________________________________________________
 
