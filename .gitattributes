@@ -1,0 +1,35 @@
+	##############################################
+	#        CYBERWM-DARK XFCEWM THEME           #
+	#               By, tREEs                    #
+	##############################################
+
+#==> DESCRIPTION
+#############################################################
+#  The following file is checked out by github and used to  # 
+#  convert all line endings to LF consistently regardless   #
+#  of the download platform.                                #       
+#                                                           #
+#  This is implemented to ensure that the SHA-256 checksums # 
+#  are not modified when you download the repository on     #
+#  Windows, for Example.                                    #
+#  This file is not modified by that process and its line   #
+#  endings remain unchanged from when shipped, ensuring a   #
+#  reliable method of verifying file integrity.             #
+#############################################################
+
+#==> CONFIGURATION VARIABLES
+# Ensure all text files use LF line endings
+* text auto eol=lf
+
+# Treat all shell scripts as text and use LF line endings
+*.sh text eol=lf
+
+# Treat all images as Binary
+*.jpg binary
+*.png binary
+
+# Treat Media Documents as text and use LF Line Endings
+*.md text eol=lf
+
+# FOR MORE INFORMATION ON THIS FILE PLEASE READ THE DOCS
+# DOCUMENTATION - https://git-scm.com/docs/gitattributes

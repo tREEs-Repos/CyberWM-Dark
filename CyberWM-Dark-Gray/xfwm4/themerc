@@ -1,0 +1,37 @@
+                #############################################################
+                #             CyberWM-Dark-Red Theme for XFCE4              #
+                #             Ported to this color scheme by:               #
+                #                         tREEs                             #
+                #                                                           #
+                #               Based on the ghost-dark port.               #
+                #############################################################
+
+
+#####>>  FILE DESCRIPTION
+
+This file is used to customise the appearance and the behavior of the Window Decorations used by the
+CyberWM Theme. 
+Each Line is generally mandatory for the theme to behave as designed, but feel free to experiment!
+
+
+#####>> CONFIGURATION VARIABLES
+
+=> BUTTON ALIGNMENT
+button_offset=0                     # Set the Button Offset for Close, Minimise, Maximise etc in Pixels
+button_spacing=4                    # Set the Button Spacing for Close, Minimise, Maximise etc in Pixels
+
+
+=> TITLE TEXT ALIGNMENT AND COLOR
+full_width_title=false              # This determines if the Title Bar fills the full length of the Window.
+                                    # Full_Width_Title is set to FALSE so Buttons can be shown.
+title_alignment=center              # Set the Title Alignment to be Centered on the Top Bar.
+title_vertical_offset_active=8      # Shift Title Text Down by 8 Pixels when the Window is ACTIVE.
+title_vertical_offset_inactive=8    # Shift Title Text Down by 8 Pixels when the Window is INACTIVE.
+active_text_color=#ffffff           # Set the Title Text to WHITE when the Window is ACTIVE.
+inactive_text_color=#777777         # Set the Title Text to GRAY when the Window is INACTIVE.
+
+=> WINDOW SHADOW EFFECT
+shadow_delta_height=1               # Set the Height of the Shadow Effect to be 1px Taller than the Window.             
+shadow_delta_width=1                # Set the Width of the Shadow Effect to be 1px Wider than the Window.
+shadow_delta_x=1                    # Set the Horizontal Offset of the Shadow Effect to 1px to the right.
+shadow_delta_y=0                    # Set the Shadow Effect to Not be Offset Vertically.
