@@ -26,16 +26,18 @@ https://github.com/tREEs-Repos/CyberWM-Dark/
 
 <!--- A Brief Summary of the Project and what functionality it provides / goal it accomplishes --->
 ### Project Description:
-The 'Cyber-WM Dark' theme collection is a variety of dark-mode styles for the XFCE Desktops Window Manager. This repository comes 
-with 11 color styles to choose from, making it even more likely you'll find a color to make your build stand out.
+The 'Cyber-WM Dark' theme collection is a variety of dark-mode styles for the XFCE Window Manager. This repository comes with 11 
+color styles to choose from, making it even more likely you'll find a color to make your build stand out.
 
 Experience a unique GUI feel with CyberwMs use of Shadow Effects which appear to change your Window shape entirely when in 
-windowed mode. Simply move the theme files into a directory accessible with XFCEWM and you're good to go!
+windowed mode. CyberWM is ported from 'ghost-dark', a Window Manager style by ![Purnomoshinigami](https://www.xfce-look.org/u/purnomoshinigami).
+
+It is originally inspired by the ColdSteel Oroborous Theme. 
 
 <!--- Preview Images of each Theme Color. --->
 <!--- Preview Images are stored in the root directory of each individual Theme. --->
 ## Themes and Previews
-CyberWM Dark Mode comes in 11 color combinations. These are listed below, in the order they appear in the Repository files.
+This theme collection comes in 11 color combinations. These are listed below, in the order they appear in the Repository files.
 
 * CyberWM-Dark-DeepBlue
   ![Deep Blue Preview](CyberWM-Dark-DeepBlue/preview.png)
@@ -73,6 +75,7 @@ CyberWM Dark Mode comes in 11 color combinations. These are listed below, in the
 <!--- Section for Installation techniques and Explanation --->
 ## Installation
 
+
 <!--- Including a copy of the Creative Commons Zero License in the README for Transparency --->
 ## License
 The CyberWM Theme Collection is Provided under the Creative Commons Zero License. 
@@ -104,3 +107,12 @@ A copy of the License will be cloned with the Repository. It is available ![here
 
 <!--- Repository Acknowledgements --->
 ## Acknowledgements
+
+**Purnomoshinigami** - An Indonesian user on XFCE Look.
+He has some amazing Window Manager themes that seem to turn up on all my XFCE Builds.
+Support him by checking out his ![XFCE Look]() Account and seeing if theres anything you like.
+
+**XFCE-Look.org** - 
+A well known, leading source of configurations for XFCE, GTK, Compix, Beryl / Emerald Themes and more.
+Support the website by checking it out and seeing if theres anything you like.
+The XFCE-Look website is linked directly ![here](https://www.xfce-look.org/).
