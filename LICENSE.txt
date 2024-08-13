@@ -1,9 +1,9 @@
------------------------------------------------------------------------------------------
+________________________________________________________________________________________
 This license description applies to: "CyberWM-Dark XFCE Window Manager Theme" by tREEs
 The full repository is available at this URL: https://github.com/tREEs-Repos/CyberWM-Dark
 _________________________________________________________________________________________
 
-----------------------------------------------------
+____________________________________________________
 CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 ____________________________________________________
 
@@ -17,4 +17,4 @@ without asking permission. Full Copy of the legal code:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode
 
 By using this code repository you agree to be bound by the conditions of this license.
-==========================================================================================
+_________________________________________________________________________________________
