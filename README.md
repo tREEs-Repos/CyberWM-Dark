@@ -96,7 +96,6 @@ We will also assume you have knowledge of using `git` and basic system utilities
 ### Installation Options:
 - [Installing the Full Theme Collection](#approach-1-installing-the-full-theme-collection)
 - [Installing Individual Themes](#approach-2-installing-individual-themes)
-- [Previewing your Theme before use](#previewing-your-theme-before-use)
 - [Using your Theme](#using-your-theme)
 - [Clean Uninstall](#how-to-uninstall-cleanly)
 
@@ -167,7 +166,7 @@ This is the simplest approach to Installation and installs every color variant o
 
 4. Your Theme is now Installed. Easy, right?
     
-   See how to: [Preview your Theme](#previewing-your-theme-before-use) or jump right in to [using](#using-your-theme) it!
+   Now start [using](#using-your-theme) it!
 
    Errors / Issues on our side? Please see the section on how to leave Feedback: [Bugs and Feedback](#bugs-and-feedback).
 
@@ -272,18 +271,15 @@ In this example we are installing themes to the most common directory: `/usr/sha
 
 11. Your themes are now Installed successfully and ready for use.
 
-    See how to: [Preview your Theme](#previewing-your-theme-before-use) or jump right in to [using](#using-your-theme) it!
+    Now start [using](#using-your-theme) it!
 
     Errors / Issues on our side? Please see the section on how to leave Feedback: [Bugs and Feedback](#bugs-and-feedback).
 
     Wish to uninstall? Please check [the Removal Guide](#how-to-uninstall-cleanly).
 ___
 
-### PREVIEWING YOUR THEME BEFORE USE
-
-___
-
 ### USING YOUR THEME
+
 ___
 
 ### HOW TO UNINSTALL CLEANLY
