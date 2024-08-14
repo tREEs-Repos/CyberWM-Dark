@@ -233,13 +233,13 @@ In this example we are installing themes to the most common directory: `/usr/sha
    Switched to a new branch 'main'
    ```
    
-10. Check your workspace to ensure you have the colors of your choice.
-   ```
-   ls -al path/to/my_colors/
-   ```
-   If you followed all the steps correctly you will see your downloaded Theme files.
+9. Check your workspace to ensure you have the colors of your choice.
+    ```
+    ls -al path/to/my_colors/
+    ```
+    If you followed all the steps correctly you will see your downloaded Theme files.
 
-11. Ship the theme configs to the XFCE Themes directory.
+10. Ship the theme configs to the XFCE Themes directory.
 
     You have two options for moving the files.
     You can either use `mv` to move all the Downloaded Files directly.
@@ -270,7 +270,7 @@ In this example we are installing themes to the most common directory: `/usr/sha
     ...
     ```
 
-13. Your themes are now Installed successfully and ready for use.
+11. Your themes are now Installed successfully and ready for use.
 
     See how to: [Preview your Theme](#previewing-your-theme-before-use) or jump right in to [using](#using-your-theme) it!
 
