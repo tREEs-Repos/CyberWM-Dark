@@ -172,16 +172,121 @@ This is the simplest approach to Installation and installs every color variant o
    Errors / Issues on our side? Please see the section on how to leave Feedback: [Bugs and Feedback](#bugs-and-feedback).
 
    Wish to uninstall? Please check [the Removal Guide](#how-to-uninstall-cleanly).
-
+___
 
 ### APPROACH 2: INSTALLING INDIVIDUAL THEMES
+Installing individual themes is more complicated but offers you more control over what files appear on your system.
+
+To do this we use a combination of Gits 'sparse-checkout' feature combined with `git clone`.
+
+In this example we are installing themes to the most common directory: `/usr/share/themes`
+
+1. First Create a Directory for you to use for handling the source files.
+   ```
+   mkdir -v my_colors/
+   ```
+
+2. Initialize git within your workspace.
+   ```
+   cd my_colors/
+   git init
+   ```
+   You will see what looks like an error for initializing an empty repository. Ignore this.
+
+3. Add the Remote URL for the Cyber-WM Theme source code.
+   ```
+   git remote add origin https://github.com/tREEs-Repos/CyberWM-Dark.git
+   ```
+
+4. Fetch all of the objects in the Repository, but don't check them out.
+   ```
+   git fetch origin
+   ```
+   If this command is successful you will see output like as follows:
+   ```
+   remote: Enumerating objects: 356, done.
+   remote: Counting objects: 100% (356/356), done.
+   remote: Compressing objects: 100% (111/111), done.
+   remote: Total 356 (delta 259), reused 320 (delta 242), pack-reused 0 (from 0)
+   Receiving objects: 100% (356/356), 3.22 MiB | 5.96 MiB/s, done.
+   Resolving deltas: 100% (259/259), done.
+   ```
+
+6. Enable 'sparse-checkout' to check out only specific directories.
+   ```
+   git sparse-checkout init --cone
+   ```
+
+7. Checkout which theme directories you want from the repo.
+   ```
+   git sparse-checkout set CyberWM-Dark-Midnight/ CyberWM-Dark-Green/ CyberwM-Dark-Red/
+   ```
+
+8. Now check out the branch that you want. (Always 'main' for CyberWM.)
+   ```
+   git checkout main
+   ```
+
+   You should expect to see the following output:
+   ```
+   branch 'main' set up to track 'origin/main'.
+   Switched to a new branch 'main'
+   ```
+   
+10. Check your workspace to ensure you have the colors of your choice.
+   ```
+   ls -al path/to/my_colors/
+   ```
+   If you followed all the steps correctly you will see your downloaded Theme files.
+
+11. Ship the theme configs to the XFCE Themes directory.
+
+    You have two options for moving the files.
+    You can either use `mv` to move all the Downloaded Files directly.
+
+    This command may require `sudo` depending on your setup / needs.
+    ```
+    # This Command Only moves folders called CyberWM-Dark
+    sudo mv -v Cyber-WM-Dark*/ /usr/share/themes
+    ```
+    If the command is successful you will see the similar output:
+    ```
+    renamed 'CyberWM-Dark-DeepBlue/' -> '/usr/share/themes/CyberWM-Dark-DeepBlue'
+    renamed 'CyberWM-Dark-DeepPurple/' -> '/usr/share/themes/CyberWM-Dark-DeepPurple'
+    renamed 'CyberWM-Dark-Gray/' -> '/usr/share/themes/CyberWM-Dark-Gray'
+    ```
+
+    Or you can use 'copy', `cp` to copy the files and preserve the source.
+
+    This command may require `sudo` depending on your setup / needs.
+    ```
+    sudo cp -rv CyberWM-Dark*/ /usr/share/themes
+    ```
+    If the command is successful you will see similar output:
+    ```
+    'CyberWM-Dark-DeepBlue/' -> '/usr/share/themes/CyberWM-Dark-DeepBlue'
+    'CyberWM-Dark-DeepBlue/README.md' -> '/usr/share/themes/CyberWM-Dark-DeepBlue/README.md'
+    'CyberWM-Dark-DeepBlue/preview.png' -> '/usr/share/themes/CyberWM-Dark-DeepBlue/preview.png'
+    ...
+    ```
+
+13. Your themes are now Installed successfully and ready for use.
+
+    See how to: [Preview your Theme](#previewing-your-theme-before-use) or jump right in to [using](#using-your-theme) it!
+
+    Errors / Issues on our side? Please see the section on how to leave Feedback: [Bugs and Feedback](#bugs-and-feedback).
+
+    Wish to uninstall? Please check [the Removal Guide](#how-to-uninstall-cleanly).
+___
 
 ### PREVIEWING YOUR THEME BEFORE USE
 
+___
+
 ### USING YOUR THEME
+___
 
 ### HOW TO UNINSTALL CLEANLY
-
 ___
 
 <!--- Including a copy of the Creative Commons Zero License in the README for Transparency --->
