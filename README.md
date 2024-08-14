@@ -23,6 +23,7 @@ https://github.com/tREEs-Repos/CyberWM-Dark/
 - [Installation](#installation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+- [Bugs and Feedback](#bugs-and-feedback)
 
 <!--- A Brief Summary of the Project and what functionality it provides / goal it accomplishes --->
 ### Project Description:
@@ -30,7 +31,7 @@ The 'Cyber-WM Dark' theme collection is a variety of dark-mode styles for the XF
 color styles to choose from, making it even more likely you'll find a color to make your build stand out.
 
 Experience a unique GUI feel with CyberwMs use of Shadow Effects which appear to change your Window shape entirely when in 
-windowed mode. CyberWM is ported from 'ghost-dark', a Window Manager style by ![Purnomoshinigami](https://www.xfce-look.org/u/purnomoshinigami).
+windowed mode. CyberWM is ported from 'ghost-dark', a Window Manager style by [Purnomoshinigami](https://www.xfce-look.org/u/purnomoshinigami).
 
 It is originally inspired by the ColdSteel Oroborous Theme. 
 
@@ -57,7 +58,7 @@ This theme collection comes in 11 color combinations. These are listed below, in
 * CyberWM-Dark-LightPurple
   ![Light Purple Preview](CyberWM-Dark-LightPurple/preview.png)
 
-* CyberWM-Dark-Midnight
+* CyberWM-Dark-Midnight (*All Black*)
   ![Midnight Preview](CyberWM-Dark-Midnight/preview.png)
 
 * CyberWM-Dark-Pink
@@ -110,9 +111,17 @@ A copy of the License will be cloned with the Repository. It is available ![here
 
 **Purnomoshinigami** - An Indonesian user on XFCE Look.
 He has some amazing Window Manager themes that seem to turn up on all my XFCE Builds.
-Support him by checking out his ![XFCE Look]() Account and seeing if theres anything you like.
+Support him by checking out his ![XFCE Look](https://www.xfce-look.org/u/purnomoshinigami) Account and seeing if theres anything you like.
 
 **XFCE-Look.org** - 
 A well known, leading source of configurations for XFCE, GTK, Compix, Beryl / Emerald Themes and more.
 Support the website by checking it out and seeing if theres anything you like.
 The XFCE-Look website is linked directly ![here](https://www.xfce-look.org/).
+
+## Bugs and Feedback
+Issues / Errors with this Repository? Reach out here via Github.
+
+Feedback? Also feel free to reach out here via Github. Your input is always appreciated!
+
+I am always open to requests to refactor and redesign this repository if you have a better system.
+___
