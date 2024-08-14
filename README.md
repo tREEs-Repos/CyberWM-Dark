@@ -31,7 +31,9 @@ The 'Cyber-WM Dark' theme collection is a variety of dark-mode styles for the XF
 color styles to choose from, making it even more likely you'll find a color to make your build stand out.
 
 Experience a unique GUI feel with CyberwMs use of Shadow Effects which appear to change your Window shape entirely when in 
-windowed mode. CyberWM is ported from 'ghost-dark', a Window Manager style by [Purnomoshinigami](https://www.xfce-look.org/u/purnomoshinigami).
+windowed mode. 
+
+CyberWM is ported from 'ghost-dark', a Window Manager style by [Purnomoshinigami](https://www.xfce-look.org/u/purnomoshinigami).
 
 It is originally inspired by the ColdSteel Oroborous Theme. 
 
