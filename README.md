@@ -77,7 +77,112 @@ This theme collection comes in 11 color combinations. These are listed below, in
 
 <!--- Section for Installation techniques and Explanation --->
 ## Installation
+<!-- The Introduction tries to help users locate the correct path for the Installation --->
+To Install  this theme collection. You will first need to know where your system stores XFCE Themes.
 
+There are multiple ways to do this and it is up to the user to work out the correct path themselves.
+
+Some common locations for theme configurations are:
+
+* `/usr/share/themes/`
+* `/usr/share/xfwm4/themes/`
+* `~/.themes/`
+* `~/.local/share/themes/`
+
+For the purposes of this guide we will be installing to the most standard location. `/usr/share/themes/`
+We will also assume you have knowledge of using `git` and basic system utilities.
+
+<!--- This Section Signposts Users to different parts of the Installation Guide. --->
+### Installation Options:
+- [Installing the Full Theme Collection](#approach-1-installing-the-full-theme-collection)
+- [Installing Individual Themes](#approach-2-installing-individual-themes)
+- [Previewing your Theme before use](#previewing-your-theme-before-use)
+- [Using your Theme](#using-your-theme)
+- [Clean Uninstall](#how-to-uninstall-cleanly)
+
+___
+
+<!--- Guide for Approach: Installing the Full Theme Collection --->
+### **APPROACH 1: INSTALLING THE FULL THEME COLLECTION**
+This is the simplest approach to Installation and installs every color variant on your system.
+
+1. First, clone this repository in a location of your choice.
+   ```
+   # Command 1 - Enter the Directory to store the repo files in.
+   cd ~/Downloads
+
+   # Use 'git' to clone the repository from Github.
+   git clone https://github.com/tREEs-Repos/CyberWM-Dark
+   ```
+
+   You should see similar output to this:
+   ```
+   Cloning into 'CyberWM-Dark'...
+   remote: Enumerating objects: 353, done.
+   remote: Counting objects: 100% (353/353), done.
+   remote: Compressing objects: 100% (108/108), done.
+   remote: Total 353 (delta 257), reused 320 (delta 242), pack-reused 0 (from 0)
+   Receiving objects: 100% (353/353), 3.21 MiB | 5.73 MiB/s, done.
+   Resolving deltas: 100% (257/257), done.
+   ```
+
+2. Enter the Downloaded Repo and transfer all the root directory subfolders to your install location.
+   ```
+   # Enter the Downloaded Repository Directory
+   cd CyberWM-Dark/ 
+   ```
+
+   You now have two options. If you want to transfer the themes directly without preserving the source use `mv`.
+
+   This operation may need `sudo` permissions on some machines if moving files to the rootfs.
+   ```
+   # Move all Subfolders to /usr/share/themes.
+   # This command only moves Directories beginning with CyberWM-Dark
+   sudo mv -v CyberWM-Dark*/ /usr/share/themes
+   ```
+
+   If you are successful you should see output like this:
+   ```
+   renamed 'CyberWM-Dark-DeepBlue/' -> '/usr/share/themes/CyberWM-Dark-DeepBlue'
+   renamed 'CyberWM-Dark-DeepPurple/' -> '/usr/share/themes/CyberWM-Dark-DeepPurple'
+   renamed 'CyberWM-Dark-Gray/' -> '/usr/share/themes/CyberWM-Dark-Gray'
+   ...
+   ```
+
+   If you wish to save a copy of the source files, then use the `cp` utility.
+
+   This operation may need `sudo` permissions on some machines if copying files to the rootfs.
+   ```
+   # Copy all subfolders to /usr/share/themes
+   # This command also only moves directories beginning with CyberWM-Dark
+   sudo cp -rv CyberWM-Dark*/ /usr/share/themes
+   ```
+
+   If you are successful you should see output like this:
+   ```
+   'CyberWM-Dark-DeepBlue/' -> '/usr/share/themes/CyberWM-Dark-DeepBlue'
+   'CyberWM-Dark-DeepBlue/README.md' -> '/usr/share/themes/CyberWM-Dark-DeepBlue/README.md'
+   'CyberWM-Dark-DeepBlue/preview.png' -> '/usr/share/themes/CyberWM-Dark-DeepBlue/preview.png'
+   ```
+
+4. Your Theme is now Installed. Easy, right?
+    
+   See how to: [Preview your Theme](#previewing-your-theme-before-use) or jump right in to [using](#using-your-theme) it!
+
+   Errors / Issues on our side? Please see the section on how to leave Feedback: [Bugs and Feedback](#bugs-and-feedback).
+
+   Wish to uninstall? Please check [the Removal Guide](#how-to-uninstall-cleanly).
+
+
+### APPROACH 2: INSTALLING INDIVIDUAL THEMES
+
+### PREVIEWING YOUR THEME BEFORE USE
+
+### USING YOUR THEME
+
+### HOW TO UNINSTALL CLEANLY
+
+___
 
 <!--- Including a copy of the Creative Commons Zero License in the README for Transparency --->
 ## License
