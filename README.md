@@ -172,7 +172,7 @@ This is the simplest approach to Installation and installs every color variant o
 
    Wish to uninstall? Please check [the Removal Guide](#how-to-uninstall-cleanly).
 ___
-
+<!--- Guide for Approach: Installing only Individual themes the User wants to Install. --->
 ### APPROACH 2: INSTALLING INDIVIDUAL THEMES
 Installing individual themes is more complicated but offers you more control over what files appear on your system.
 
@@ -253,6 +253,7 @@ In this example we are installing themes to the most common directory: `/usr/sha
     renamed 'CyberWM-Dark-DeepBlue/' -> '/usr/share/themes/CyberWM-Dark-DeepBlue'
     renamed 'CyberWM-Dark-DeepPurple/' -> '/usr/share/themes/CyberWM-Dark-DeepPurple'
     renamed 'CyberWM-Dark-Gray/' -> '/usr/share/themes/CyberWM-Dark-Gray'
+    ...
     ```
 
     Or you can use 'copy', `cp` to copy the files and preserve the source.
@@ -280,9 +281,41 @@ ___
 
 ### USING YOUR THEME
 
+There are two approaches to setting a new Theme for use by XFCE.
+
+You can either set your Theme via the Terminal, or do it via the XFCE4 GUI.
+
+**APPROACH 1: USING THE TERMINAL:**
+
+
+**APPROACH 2: USING THE GUI:**
 ___
 
 ### HOW TO UNINSTALL CLEANLY
+
+**GENERAL CLEANUP:**
+
+If you followed our installation guide you may notice you're left with some loose files after moving your Theme to 
+the target installation directory. Namely, this README.md, the License, `.gitattributes` etc.
+
+Things from the Projects root directory you may want to remove. Simply:
+```
+rm -rvf /path/to/downloaded/repo/or/workspace
+```
+And these should be permenantly erased from your system.
+
+If you wanted to preserve the downloaded source files then you shouldnt need to take any action.
+___
+
+**UNINSTALLING THE THEME FILES ONCE INSTALLED:**
+
+If your themes are located in `/usr/share/themes/` you can uninstall them by running:
+```
+sudo rm -rvf /usr/share/themes/CyberWM-Dark*
+```
+Which will permenantly remove all the configuration directories and files from `/usr/share/themes`
+
+Please be warned that deleting configurations active in XFCE may cause breaking changes to your OS.
 ___
 
 <!--- Including a copy of the Creative Commons Zero License in the README for Transparency --->
