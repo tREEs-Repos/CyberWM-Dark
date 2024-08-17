@@ -33,7 +33,7 @@ color styles to choose from, making it even more likely you'll find a color to m
 Experience a unique GUI feel with CyberwMs use of Shadow Effects which appear to change your Window shape entirely when in 
 windowed mode. 
 
-CyberWM is ported from 'ghost-dark', a Window Manager style by [Purnomoshinigami](https://www.xfce-look.org/u/purnomoshinigami).
+CyberWM is ported from 'ghost-dark', a Window Manager style by [Purnomo Shinigami](https://www.xfce-look.org/u/purnomoshinigami).
 
 It is originally inspired by the ColdSteel Oroborous Theme. 
 
@@ -176,7 +176,7 @@ ___
 ### APPROACH 2: INSTALLING INDIVIDUAL THEMES
 Installing individual themes is more complicated but offers you more control over what files appear on your system.
 
-To do this we use a combination of Gits 'sparse-checkout' feature combined with `git clone`.
+To do this we use a combination of Gits 'sparse-checkout' feature combined with the `git` tool.
 
 In this example we are installing themes to the most common directory: `/usr/share/themes`
 
@@ -285,10 +285,32 @@ There are two approaches to setting a new Theme for use by XFCE.
 
 You can either set your Theme via the Terminal, or do it via the XFCE4 GUI.
 
+___
+
 **APPROACH 1: USING THE TERMINAL:**
 
+Your themes are now installed and in the correct directory.
+
+To apply 'Cyber-WM-DeepBlue' in this example we use `xfconf-query`
+
+```
+xfconf-query -c xfwm4 -p /general/theme -s "CyberWM-Dark-DeepBlue"
+```
+
+Your window manager theme should change instantly.
+
+___
 
 **APPROACH 2: USING THE GUI:**
+
+Navigate to the **Start** Menu and search for: `Window Manager`.
+
+An application of the same name should readily be available.
+
+It will list all your available Theme configurations once you open the Application.
+
+Simply select one of the CyberWM configurations you installed and you're good to go.
+
 ___
 
 ### HOW TO UNINSTALL CLEANLY
@@ -350,9 +372,11 @@ A copy of the License will be cloned with the Repository. It is available ![here
 <!--- Repository Acknowledgements --->
 ## Acknowledgements
 
-**Purnomoshinigami** - An Indonesian user on XFCE Look.
+**Purnomo Shinigami** - An Indonesian user on XFCE Look.
 He has some amazing Window Manager themes that seem to turn up on all my XFCE Builds.
 Support him by checking out his ![XFCE Look](https://www.xfce-look.org/u/purnomoshinigami) Account and seeing if theres anything you like.
+
+He is also on GitHub and has a few ![Repositories](https://github.com/purnomoshinigami) here as well.
 
 **XFCE-Look.org** - 
 A well known, leading source of configurations for XFCE, GTK, Compix, Beryl / Emerald Themes and more.
