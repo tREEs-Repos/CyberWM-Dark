@@ -107,10 +107,7 @@ This is the simplest approach to Installation and installs every color variant o
 
 1. First, clone this repository in a location of your choice.
    ```
-   # Command 1 - Enter the Directory to store the repo files in.
    cd ~/Downloads
-
-   # Use 'git' to clone the repository from Github.
    git clone https://github.com/tREEs-Repos/CyberWM-Dark
    ```
 
@@ -127,7 +124,6 @@ This is the simplest approach to Installation and installs every color variant o
 
 2. Enter the Downloaded Repo and transfer all the root directory subfolders to your install location.
    ```
-   # Enter the Downloaded Repository Directory
    cd CyberWM-Dark/ 
    ```
 
@@ -135,7 +131,6 @@ This is the simplest approach to Installation and installs every color variant o
 
    This operation may need `sudo` permissions on some machines if moving files to the rootfs.
    ```
-   # Move all Subfolders to /usr/share/themes.
    # This command only moves Directories beginning with CyberWM-Dark
    sudo mv -v CyberWM-Dark*/ /usr/share/themes
    ```
@@ -152,7 +147,6 @@ This is the simplest approach to Installation and installs every color variant o
 
    This operation may need `sudo` permissions on some machines if copying files to the rootfs.
    ```
-   # Copy all subfolders to /usr/share/themes
    # This command also only moves directories beginning with CyberWM-Dark
    sudo cp -rv CyberWM-Dark*/ /usr/share/themes
    ```
@@ -245,7 +239,6 @@ In this example we are installing themes to the most common directory: `/usr/sha
 
     This command may require `sudo` depending on your setup / needs.
     ```
-    # This Command Only moves folders called CyberWM-Dark
     sudo mv -v Cyber-WM-Dark*/ /usr/share/themes
     ```
     If the command is successful you will see the similar output:
