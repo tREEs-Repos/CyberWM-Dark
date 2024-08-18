@@ -89,7 +89,8 @@ Some common locations for theme configurations are:
 * `~/.themes/`
 * `~/.local/share/themes/`
 
-For the purposes of this guide we will be installing to the most standard location. `/usr/share/themes/`
+For the purposes of this guide we will be installing to the most standard location. `/usr/share/themes/`.
+
 We will also assume you have knowledge of using `git` and basic system utilities.
 
 <!--- This Section Signposts Users to different parts of the Installation Guide. --->
