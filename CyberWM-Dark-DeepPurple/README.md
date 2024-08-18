@@ -114,7 +114,7 @@ In this example we are installing themes to the most common directory: `/usr/sha
     ```
     If the command is successful you will see the similar output:
     ```
-    renamed 'CyberWM-Dark-DeepPurple/' -> '/usr/share/themes/CyberWM-Dark-DeepBlue'
+    renamed 'CyberWM-Dark-DeepPurple/' -> '/usr/share/themes/CyberWM-Dark-DeepPurple'
     ...
     ```
 
@@ -126,7 +126,7 @@ In this example we are installing themes to the most common directory: `/usr/sha
     ```
     If the command is successful you will see similar output:
     ```
-    'CyberWM-Dark-DeepPurple/' -> '/usr/share/themes/CyberWM-Dark-DeepBlue'
+    'CyberWM-Dark-DeepPurple/' -> '/usr/share/themes/CyberWM-Dark-DeepPurple'
     ...
     ```
 
