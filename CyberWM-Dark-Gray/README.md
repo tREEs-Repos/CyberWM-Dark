@@ -30,7 +30,7 @@ ___
 ### Project Description
 
 The 'Cyber-WM Dark' theme collection is a variety of dark-mode styles for the XFCE Window Manager. This repository is for
-the light gray theme, code named: "Gray".
+the dark gray theme, code named: "Gray".
 
 Experience a unique GUI feel with CyberwMs use of Shadow Effects which appear to change your Window shape entirely when in 
 windowed mode. 
