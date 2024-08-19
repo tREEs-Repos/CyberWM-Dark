@@ -168,7 +168,7 @@ https://creativecommons.org/publicdomain/zero/1.0/legalcode
 By using this code repository you agree to be bound by the conditions of this license.
 _________________________________________________________________________________________
 ```
-A copy of the License will be cloned with this Project Directory. It is available ![here](https://github.com/tREEs-Repos/CyberWM-Dark/blob/main/CyberWM-Dark-LightBlue/LICENSE.txt).
+A copy of the License will be cloned with this Project Directory. It is available ![here](https://github.com/tREEs-Repos/CyberWM-Dark/blob/main/CyberWM-Dark-Midnight/LICENSE.txt).
 ___
 
 ### Acknowledgements
