@@ -99,11 +99,32 @@ In this example we are installing themes to the most common directory: `/usr/sha
    
 9. Check your workspace to ensure you have the color of your choice.
     ```
-    ls -al path/to/my_color/
+    ls -al
     ```
     If you followed all the steps correctly you will see your downloaded Theme files.
 
-10. Ship the theme config to the XFCE Themes directory.
+10. Optionally, verify the Integrity of your download using `sha256sum`
+    ```
+    sha256sum -c SHASUMS.txt
+    ```
+    If your download was successful you should see the following:
+    ```
+    ./preview.png: OK
+    ./xfwm4/title-5-active.xpm: OK
+    ./xfwm4/shade-pressed.xpm: OK
+    ./xfwm4/bottom-inactive.xpm: OK
+    ./xfwm4/close-active.xpm: OK
+    ...
+    ```
+    If there are any errors your downloaded files are corrupted.
+    An error would look like this:
+    ```
+    ./xfwm4/close-active.xpm: FAILED
+    sha256sum: WARNING: 1 computed checksum did NOT match
+    ```
+    In this instance it is advisable to check your network connection and retry the download.
+    
+11. Ship the theme config to the XFCE Themes directory.
 
     You have two options for moving the files.
     You can either use `mv` to move all the Downloaded Files directly.
@@ -130,7 +151,7 @@ In this example we are installing themes to the most common directory: `/usr/sha
     ...
     ```
 
-11. Your theme is now Installed successfully and ready for use.
+12. Your theme is now Installed successfully and ready for use.
 
     You should be able to activate it from the terminal with the `xfconf` package.
 
@@ -180,7 +201,7 @@ Support him by checking out his ![XFCE Look](https://www.xfce-look.org/u/purnomo
 He is also on GitHub and has a few ![Repositories](https://github.com/purnomoshinigami) here as well.
 
 **XFCE-Look.org** - 
-A well known, leading source of configurations for XFCE, GTK, Compix, Beryl / Emerald Themes and more.
+A well known, leading source of configurations for XFCE, GTK, Compiz, Beryl / Emerald Themes and more.
 Support the website by checking it out and seeing if theres anything you like.
 The XFCE-Look website is linked directly ![here](https://www.xfce-look.org/).
 
