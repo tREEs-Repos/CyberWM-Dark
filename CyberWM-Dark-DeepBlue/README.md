@@ -43,6 +43,12 @@ ___
 ### Installation
 To install this  theme we use a combination of Gits 'sparse-checkout' feature combined with the `git` tool.
 
+If you want to verify the downloads integrity we will optionally use the `sha256sum` package from `coreutils`.
+It should be installed on most Linux systems by default.
+
+On FreeBSD use the GNU `coreutils` port via `gsha256sum`. This is easier as the native package `sha256` does not support
+verifying precomputed checksums.
+
 In this example we are installing themes to the most common directory: `/usr/share/themes`
 
 1. First Create a Directory for you to use for handling the source files.
@@ -108,6 +114,12 @@ In this example we are installing themes to the most common directory: `/usr/sha
     cd CyberWM-Dark-DeepBlue
     sha256sum -c SHASUMS.txt
     ```
+    Or on FreeBSD we use `gsha256sum`, the ported version.
+    ```
+    cd CyberWM-Dark-DeepBlue
+    gsha256sum -c SHASUMS.txt
+    ```
+       
     If your download was successful you should see the following:
     ```
     ./preview.png: OK
@@ -125,7 +137,7 @@ In this example we are installing themes to the most common directory: `/usr/sha
     ```
     In this instance it is advisable to check your network connection and retry the download.
     
-11. Ship the theme config to the XFCE Themes directory.
+12. Ship the theme config to the XFCE Themes directory.
 
     You have two options for moving the files.
     You can either use `mv` to move all the Downloaded Files directly.
@@ -152,7 +164,7 @@ In this example we are installing themes to the most common directory: `/usr/sha
     ...
     ```
 
-12. Your theme is now Installed successfully and ready for use.
+13. Your theme is now Installed successfully and ready for use.
 
     You should be able to activate it from the terminal with the `xfconf` package.
 
