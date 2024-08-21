@@ -105,6 +105,7 @@ In this example we are installing themes to the most common directory: `/usr/sha
 
 10. Optionally, verify the Integrity of your download using `sha256sum`
     ```
+    cd CyberWM-Dark-DeepBlue
     sha256sum -c SHASUMS.txt
     ```
     If your download was successful you should see the following:
